@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { ViewallFriendsComponent } from './viewall-friends/viewall-friends.component';
+import { SearchFriendsComponent } from './search-friends/search-friends.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddFriendsComponent,
-    ViewallFriendsComponent
+    ViewallFriendsComponent,
+    SearchFriendsComponent
   ],
   imports: [
     BrowserModule,
