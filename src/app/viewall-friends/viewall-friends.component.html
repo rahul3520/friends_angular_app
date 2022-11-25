@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Friend's Name</th>
+                        <th>Describe your Friend</th>
+                        <th>Friends's Nickanme</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let i of friends"> 
+                        <td>{{i.name}}</td>
+                        <td>{{i.friendName}}</td>
+                        <td>{{i.DescribeYourFriend}}</td>
+                        <td>{{i.friendNickName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
