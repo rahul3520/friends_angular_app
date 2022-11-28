@@ -11,4 +11,14 @@ export class AddFriendsComponent {
   friendName=""
   friendNickName=""
   DescribeYourFriend=""
+
+  readValues = () =>
+  {
+
+    let data:any={"name":this.name,"friendName":this.friendName,"friendNickName":this.friendNickName,"DescribeYourFriend":this.DescribeYourFriend}
+
+    console.log(data);
+    
+
+  }
 }
