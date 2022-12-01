@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
 })
 export class AddFriendsComponent {
 
-  Name=""
+  name=""
   friendName=""
   friendNickName=""
   DescribeYourFriend=""
@@ -20,7 +20,7 @@ export class AddFriendsComponent {
 
     let data:any=
     {
-      "Name":this.Name,"friendName":this.friendName,"friendNickName":this.friendNickName,"DescribeYourFriend":this.DescribeYourFriend
+      "name":this.name,"friendName":this.friendName,"friendNickName":this.friendNickName,"DescribeYourFriend":this.DescribeYourFriend
     
     }
 
@@ -36,7 +36,7 @@ export class AddFriendsComponent {
         {
 
           alert("Friend data added successfully")
-          this.Name=""
+          this.name=""
           this.friendName=""
           this.friendNickName=""
           this.DescribeYourFriend=""
